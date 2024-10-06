@@ -1,9 +1,10 @@
 <template>
   <div id="app">
+    <img :src="require('@/assets/images/background.jpg')" alt="background">
     <AppHeader /> <!-- 변경된 컴포넌트 이름 -->
     <main>
-      <h2>홈페이지 소개</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatum vel distinctio, fugit, non temporibus quibusdam neque dolorum dignissimos quas quos similique odio atque expedita earum eligendi eius deleniti dolore.</p>
+      <h2>VUE PROJECT</h2>
+      <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatum vel distinctio, fugit, non temporibus quibusdam neque dolorum dignissimos quas quos similique odio atque expedita earum eligendi eius deleniti dolore.</p>
     </main>
     <AppFooter /> <!-- 변경된 컴포넌트 이름 -->
   </div>
@@ -27,7 +28,36 @@ export default {
   padding: 0;
 }
 
-main {
-  padding: 2em;
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+h2, p{
+  color: #fff;
+}
+
+h2{
+  font-size: 80px;
+  color: #4CAF50;
+  position: absolute;
+  top: 45%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+}
+
+#text{
+  width: 600px;
+  position: absolute;
+  top: 57%;
+  left: 35%;
+  transform: translate(-50%, -50%);
 }
 </style>
