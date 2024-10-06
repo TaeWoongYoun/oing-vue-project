@@ -3,8 +3,8 @@
         <h1>Vue Web Page</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="/oing-vue-project/src/views/HomePage.vue">Home</a></li>
+                <li><a href="/oing-vue-project/src/views/AboutPage.vue">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
