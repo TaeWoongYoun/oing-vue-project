@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1>간단한 홈페이지</h1>
+        <h1>Vue Web Page</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -13,15 +13,23 @@
 
 <style scoped>
     header {
+        width: 100%;
+        height: 70px;
         background-color: #4CAF50;
-        padding: 1em;
         color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header h1{
+        padding-left: 20px;
     }
     nav ul {
-        list-style-type: none;
+        list-style: none;
+        padding-left: 0;
     }
     nav ul li {
-        display: inline;
-        margin-right: 15px;
+        display: inline-block;
+        margin-right: 20px;
     }
 </style>
