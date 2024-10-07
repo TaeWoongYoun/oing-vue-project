@@ -1,23 +1,22 @@
 <template>
   <div id="app">
     <img :src="require('@/assets/images/background.jpg')" alt="background">
-    <AppHeader /> <!-- 변경된 컴포넌트 이름 -->
+    <AppHeader /> 
     <main>
       <h2>VUE PROJECT</h2>
       <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatum vel distinctio, fugit, non temporibus quibusdam neque dolorum dignissimos quas quos similique odio atque expedita earum eligendi eius deleniti dolore.</p>
     </main>
-    <AppFooter /> <!-- 변경된 컴포넌트 이름 -->
+    <AppFooter />
   </div>
 </template>
 
 <script>
-import AppHeader from './components/AppHeader.vue'; // 변경된 컴포넌트 이름
-import AppFooter from './components/AppFooter.vue'; // 변경된 컴포넌트 이름
-
+import AppHeader from './components/AppHeader.vue';
+import AppFooter from './components/AppFooter.vue';
 export default {
   components: {
-    AppHeader, // 변경된 컴포넌트 이름
-    AppFooter  // 변경된 컴포넌트 이름
+    AppHeader, 
+    AppFooter  
   }
 }
 </script>
